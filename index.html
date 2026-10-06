@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Kenny MonCash — cambio de divisas, MonCash, NatCash y recarga de minutos y datos en República Dominicana y Haití."
+    />
+    <title>Kenny MonCash — Cambio y billeteras móviles</title>
+    <style>
+      :root {
+        --bg: #0a0a0a;
+        --card: #1a1a1a;
+        --text: #fafafa;
+        --muted: rgba(255, 255, 255, 0.55);
+        --accent: #4ade80;
+        --border: rgba(255, 255, 255, 0.1);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+      h1 {
+        font-size: 2rem;
+        margin: 0 0 8px;
+      }
+      .tagline {
+        color: var(--muted);
+        margin: 0 0 32px;
+        font-size: 1.05rem;
+      }
+      section {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin: 0 0 12px;
+        color: var(--accent);
+      }
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        color: var(--muted);
+      }
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 32px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Kenny MonCash</h1>
+      <p class="tagline">
+        Plataforma digital para clientes en República Dominicana y Haití: cambio de divisas (USD),
+        operaciones con billeteras móviles MonCash y NatCash, y recarga de minutos y datos móviles.
+      </p>
+
+      <section>
+        <h2>Servicios</h2>
+        <ul>
+          <li>Compra y venta de USD con tasas publicadas en la aplicación</li>
+          <li>Envíos, depósitos, retiros y cobros vía MonCash y NatCash</li>
+          <li>Recarga de minutos y paquetes de datos (airtime)</li>
+          <li>Registro de clientes, verificación de identidad (KYC) y soporte</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contacto</h2>
+        <p>
+          Responsable: Félix Manuel Lora Martínez<br />
+          Email:
+          <a href="mailto:felixdesarrollador36@gmail.com">felixdesarrollador36@gmail.com</a><br />
+          República Dominicana · Atención en español
+        </p>
+      </section>
+
+      <section>
+        <h2>Empresa</h2>
+        <p>
+          <strong>Kenny MonCash</strong> — servicios financieros y de telecomunicaciones móviles
+          para la diáspora y usuarios en RD/HT.<br />
+          Operación mediante aplicación móvil y panel administrativo con revisión de cada operación.
+        </p>
+      </section>
+
+      <section id="privacidad">
+        <h2>Privacidad</h2>
+        <p>
+          Recopilamos datos de registro (nombre, teléfono, email, documentos KYC) únicamente para
+          verificar identidad, procesar transacciones y cumplir obligaciones legales. No vendemos
+          datos personales. Para consultas o eliminación de datos, escribe a
+          <a href="mailto:felixdesarrollador36@gmail.com">felixdesarrollador36@gmail.com</a>.
+        </p>
+      </section>
+
+      <footer>
+        © <span id="y"></span> Kenny MonCash ·
+        <a href="#privacidad">Privacidad</a>
+      </footer>
+    </div>
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
